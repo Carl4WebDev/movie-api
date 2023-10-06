@@ -10,8 +10,8 @@ function Search({apiPath}) {
   const queryTerm = SearchParams.get("q")
   const {data:movies} = useFetch(apiPath, queryTerm) 
 
-  
-  useTitle(`Search result for ${queryTerm}`)
+  //eslint-disable-next-line
+  const pageTitle = useTitle(`Search result for ${queryTerm}`)
 
   return (
 
