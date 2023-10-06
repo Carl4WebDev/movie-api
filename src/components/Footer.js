@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 export const Footer =Footer => {
   return (
@@ -11,16 +10,16 @@ export const Footer =Footer => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             <li>
-                <a target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">Socrates</a>
+                <span target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">Socrates</span>
             </li>
             <li>
-                <a target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">Plato</a>
+                <span target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">Plato</span>
             </li>
             <li>
-                <a target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">Aurelius</a>
+                <span target="_blank" className="mr-4 hover:underline md:mr-6" rel="noreferrer">Aurelius</span>
             </li>
             <li>
-                <a target="_blank" className="hover:underline" rel="noreferrer">Peterson</a>
+                <span target="_blank" className="hover:underline" rel="noreferrer">Peterson</span>
             </li>
         </ul>
         </div>
