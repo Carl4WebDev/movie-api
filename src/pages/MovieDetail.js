@@ -20,7 +20,7 @@ function MovieDetail () {
       
     }
     fetchMovie();
-  }, []) 
+  }, [params.id]) 
 
 
 
